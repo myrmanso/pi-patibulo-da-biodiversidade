@@ -3,81 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Patíbulo da diversidade</title>
 </head>
 <body>
     <!--cabeçalho-->
-    <header>
-        <nav>
-            <img src="logo" alt="">
-            <ul>
-                <li>
-                    <a href="home">Home</a>
-                </li>
-                <li>
-                    <a href="Notícias">Notícias</a>
-                </li>
-                <li>
-                    <a href="Projetos">Projetos</a>
-                </li>
-                <li>
-                    <a href="Pesquisa">Pesquisa</a>
-                </li>
-            </ul>
-        </nav>
-        <h1>Título</h1>
-        <button>Colabore!</button>
+    <nav class="nav navSombra">
+        <div class="container">
+            <img calss="navLogo logo" src="logo" alt="">
+            <div class="navContainer">
+                <ul class="navMenu">
+                    <li>
+                        <a href="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="Notícias">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="Projetos">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="Pesquisa">Pesquisa</a>
+                    </li>
+                </ul>
+            </div><!--/navContainer-->
+        </div><!--/container-->
+    </nav>
+    <header class="header">
+        <!-- <img class="imgHeader"  src="./assets/img/bg-header.jpg" alt="uma floresta pegando fogo"> -->
+        <div class="container">        
+            <h1 class="headerTitle">Título</h1>
+            <button class="btn">Saiba mais</button>
+        </div><!--/container-->
     </header>
 
     <main>
-        <div class="container">
             <!--Projetos-->
-            <section>
-                <h2>Projetos</h2>
-                <div class="container--flex">
-                    <div>
-                        <img src="img1" alt="imagem">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
-                    </div>
-                    <div>
-                        <img src="img1" alt="imagem">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
-                    </div>
-                    <div>
-                        <img src="img1" alt="imagem">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
-                    </div>
-                </div><!--/container--flex-->
+            <section class="projetos">
+                <div class="container">
+                    <h2 class="titulo">Projetos</h2>
+                        <div class="container--flex">
+                            <div class="projetosCards">
+                                <div class="containerImg">
+                                    <img class="imgCards" src="img1" alt="imagem">
+                                </div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+                            </div>
+                            <div class="projetosCards">
+                                <div class="containerImg">
+                                    <img class="imgCards" src="img1" alt="imagem">
+                                </div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+                            </div>
+                            <div class="projetosCards">
+                                <div class="containerImg">
+                                    <img class="imgCards" src="img1" alt="imagem">
+                               </div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+                            </div>
+                        </div><!--/caontainer--flex-->
+                </div><!--/container--->
             </section>
             <!--Noticias-->
-            <section>
-                    <h2>Projetos</h2>
-                    <div class="container--flex-row">
-                        <div>
-                            <img src="img1" alt="imagem">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+            <section class="noticias">
+                    <h2 class="titulo">Noticias</h2>
+                    <div class="container">
+                        <div class="container--flex">
+                            <div class="noticiasImg" >
+                                <img src="img1" alt="imagem">
+                            </div>
+                            <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
                         </div>
-                        <div>
-                            <img src="img1" alt="imagem">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+                        <div class="container--flex">
+                            <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+                            <div class="noticiasImg" >
+                                <img src="img1" alt="imagem">
+                            </div>
                         </div>
-                        <div>
-                            <img src="img1" alt="imagem">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
-                        </div>
-                    </div><!--/container--flex-->
-                </section>
-        </div><!--/container-->
+                        <div class="container--flex">
+                            <div class="noticiasImg" >
+                                <img src="img1" alt="imagem">
+                            </div>
+                            <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+                        </div><!--/container--flex---->
+                    </div><!--/container--->
+            </section>
     </main>
     <!--Newsletter-->
-    <section>
+    <section class="newsletter">
         <div class="container">
-            <h2>Newsletter</h2>
-            <form action="">
-                <label for="email-usuário">Para receber mais notícias se inscreva na nossa Newsletter!</label>
-                <div>
-                    <input type="email" name="email-usuário" id="" placeholder="nome@email.com">
-                    <input type="submit" value="Enviar">
+            <h2 class="titulo">Newsletter</h2>
+            <form class="newsletterForm">
+                <div class="newsletterLabel">
+                    <label  for="email-usuario">Para receber mais notícias se inscreva na nossa Newsletter!</label>
+                </div>
+                <div class="container--flex">
+                    <input class="newsletterInput" type="email" name="email-usuario" id="" placeholder="nome@email.com">
+                    <input class="newsletterBtn"type="submit" value="Enviar">
                 </div>
             </form>
         </div>

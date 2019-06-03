@@ -1,0 +1,18 @@
+.noticias{
+    background-color: $color-primary-lighter;
+    padding: 2rem 0  7rem 0;
+    margin: 0;
+    .noticiasImg{
+        width: 25%;
+        img{
+            object-fit: cover;
+        }
+        
+    }
+    .noticiasTexto{
+        width: 70%;
+        @media(max-width: $mobile){
+            width: 90%;
+        }
+    }
+}

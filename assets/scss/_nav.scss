@@ -1,0 +1,72 @@
+.nav {
+    background-color: $color-primary;
+    color: $color-neutral;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    font-size: $font-size-text;
+
+
+    .navContainer {
+        @include flex(center, space-between, row);
+
+        @media (max-width: $mobile){
+            @include flex(center, space-between, colum);
+        }
+
+        .navLogo {
+            display: none;
+            margin: 0.625rem 0;
+        }
+        
+        .navLogo.ativo {
+            display: block;
+        }
+        
+       .logo {
+            width: 11.25rem;
+            @media (max-width: $mobile) {
+                width: 7.5rem;
+                padding-top: 0.3125rem;
+            }
+        }
+        .navMenu {
+            margin-top: 1.375rem;
+            padding: 0;
+            @media (max-width: $mobile){   
+                display: none;
+            }
+        
+            li {
+                display: inline-block;
+                text-transform: uppercase;
+            }
+        
+            li + li {
+                margin-left: 1rem;
+            }
+        }
+
+        .navContainer--menuHamburguer {
+            display: none;
+            text-align: right;
+            @media (max-width: $mobile){
+              display: block;
+            }
+
+            
+        }
+    }   
+
+    .navTablet {
+        @media (max-width: $tablet-ver){
+            width: 85%;
+        }
+    }
+}
+
+
+.navSombra {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}

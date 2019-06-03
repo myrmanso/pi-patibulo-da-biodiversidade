@@ -1,0 +1,28 @@
+// @include nome-do-elemento(parametro)
+@mixin flex( $align, $justify, $direction ){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@mixin fonts($size, $color, $weigth){
+    font-size:  $size;
+    color:  $color;
+    font-weight:  $weigth;
+    margin: 0;
+}
+
+@mixin button( $font, $py,$px, $bgcolor, $color){
+    padding: $py $px;
+    background-color: $bgcolor;
+    font-size: $font;
+    color: $color;
+    border: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    position: relative;
+    transition: 1s transform ease;
+    transform: scale(1);
+    box-shadow: 0.09375rem 0.125rem 0.125rem 0.09375rem rgba(0, 0, 0, 0.16);
+}

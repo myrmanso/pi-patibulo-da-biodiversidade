@@ -1,0 +1,58 @@
+// COLORS
+
+$green-dark: #397615;
+$green-primary: #72bf44;
+$green-light:  #cae4b8;
+$green-lighter: #f1f8ec;
+$green-secundary: #bada2e;
+$grey-darker: #333333;
+$greey-dark: #666666;
+$grey: #a6a6a6;
+$grey-light: #e5e5e5;
+$grey-ligther: #f8f8f8;
+$white: #ffffff;
+$black: #000000;
+$yellow: #fae800;
+$yellow-light: #fffccf;
+$red: #ed1c24;
+
+
+$color-primary-dark: $green-dark;
+$color-primary: $green-primary;
+$color-primary-light: $green-light;
+$color-primary-lighter: $green-lighter;
+$color-secondary: $green-secundary;
+$color-default-darker: $grey-darker;
+$color-default-dark: $greey-dark;
+$color-default: $grey;
+$color-default-light: $grey-light;
+$color-default-lighter: $grey-ligther;
+$color-neutral: $white;
+$color-black: $black;
+$color-text: $grey-darker;
+$color-warning: $yellow;
+$color-warning-light: $yellow-light;
+$color-danger: $red;
+$color-success: $green-primary;
+
+//FONT
+
+$default-font-size: 10px;
+$font-default: 'Roboto', sans-serif;
+
+$font-size-title-cards: 2rem;//title card
+$font-size-title-primary: 3.2rem; //titulos
+$font-size-title-secundary: 2.8rem; //titulos
+$font-size-title-bigger: 4rem; //title header
+$font-size-text: 1.4rem; //button, link, nav, card
+$font-size-footer: 1rem; //footer
+
+//BREACKPOINTS
+
+$mobile: 420px;
+$tablet-ver: 768px;
+$tablet-hor: 1024px;
+
+
+
+

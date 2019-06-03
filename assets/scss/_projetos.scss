@@ -1,0 +1,16 @@
+.projetos{
+    .projetosCards{
+        width: 30%;
+        @media(max-width: $mobile){
+            width: 90%;
+        }
+    }
+    .imgCards{
+        border-radius: 100%;
+        border: 0.1rem solid $color-black;
+    }
+    .containerImg{
+        text-align: center;
+    }
+}   
+
