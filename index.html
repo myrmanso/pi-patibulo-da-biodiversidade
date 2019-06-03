@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Patíbulo da diversidade</title>
@@ -11,8 +12,9 @@
     <!--cabeçalho-->
     <nav class="nav navSombra">
         <div class="container">
-            <img calss="navLogo logo" src="logo" alt="">
             <div class="navContainer">
+                <img calss="navLogo logo" src="./assets/img/logo.png" alt="">
+
                 <ul class="navMenu">
                     <li>
                         <a href="home">Home</a>
@@ -42,7 +44,11 @@
             <!--Projetos-->
             <section class="projetos">
                 <div class="container">
-                    <h2 class="titulo">Projetos</h2>
+                    <h2 class="titulo"><span class="spanMarcaTexto">
+                        <span class="marcaTexto"></span>
+                              Projetos  
+                        </span>
+                    </h2>
                         <div class="container--flex">
                             <div class="projetosCards">
                                 <div class="containerImg">
@@ -67,21 +73,25 @@
             </section>
             <!--Noticias-->
             <section class="noticias">
-                    <h2 class="titulo">Noticias</h2>
+                    <h2 class="titulo noticiasTitulo"><span class="spanMarcaTexto">
+                        <span class="marcaTexto--white"></span>
+                              Noticias  
+                        </span>
+                    </h2>
                     <div class="container">
-                        <div class="container--flex">
+                        <div class="noticiasCards container--flex">
                             <div class="noticiasImg" >
                                 <img src="img1" alt="imagem">
                             </div>
                             <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
                         </div>
-                        <div class="container--flex">
+                        <div class="noticiasCards container--flex">
                             <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
                             <div class="noticiasImg" >
                                 <img src="img1" alt="imagem">
                             </div>
                         </div>
-                        <div class="container--flex">
+                        <div class="noticiasCards container--flex">
                             <div class="noticiasImg" >
                                 <img src="img1" alt="imagem">
                             </div>
@@ -93,7 +103,12 @@
     <!--Newsletter-->
     <section class="newsletter">
         <div class="container">
-            <h2 class="titulo">Newsletter</h2>
+            <h2 class="titulo">
+                <span class="spanMarcaTexto">
+                    <span class="marcaTexto"></span>
+                    Newsletter
+                </span>
+            </h2>
             <form class="newsletterForm">
                 <div class="newsletterLabel">
                     <label  for="email-usuario">Para receber mais notícias se inscreva na nossa Newsletter!</label>
@@ -106,22 +121,45 @@
         </div>
     </section>
     <!--footer-->
-    <footer>
-        <div class="container">
-            <div>
-                <img src="rede social" alt="imagem">
-                <img src="rede social" alt="imagem">
-                <img src="rede social" alt="imagem">
-                <img src="rede social" alt="imagem">
+    <section class="footerBg">
+        <div class="container container--flex">
+            <div class="footerBox--conteudo">
+            
+                <ul class="footerRedes">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="./assets/img/icones/fb-icon.png" alt="icone do facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img class="iconInsta" src="./assets/img/icones/instagram-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="./assets/img/icones/yt-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img class="iconInsta" src="./assets/img/icones/email-icon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                        
             </div>
-            <div>
-                <h3>Sobre nós</h3>
+            <div class="footerBox">
+                <h3 class="footerBoxTitle">Sobre nós</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro dicta asperiores totam! Quidem fugiat dolorem aperiam, minus excepturi, nisi nemo vero consequuntur ducimus eaque repudiandae debitis? Quidem, dolor maxime.
                 </p>
             </div>
         </div><!--/container-->
-    </footer>
-    
+    </section>
+    <footer class="footerCopyright">
+        <p>Patibulo de diversidade © 2019. Desenvolvido por <a href="https://github.com/myrmanso">Mayara Cristina Manso</a> e Matheus Oliveira</p>
+    </footer>  
+
 </body>
 </html>

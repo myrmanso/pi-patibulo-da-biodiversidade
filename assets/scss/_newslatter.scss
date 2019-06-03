@@ -9,20 +9,29 @@
 }
 
 .newsletterInput {
+  background-color: $color-primary-light;
   width: 70%;
   padding: 0.5rem;
   border-radius: 4px;
-  @media (max-width: $mobile){
+  @media (max-width: $tablet-ver){
       width: 100%;
-  }
+  }  
 }
+
+.newsletterInput:focus{
+  outline: none;
+}
+
+
+
 
 
 .newsletterBtn {
   @include button($font-size-text, 0.5rem, 0.5rem, $color-primary-dark, $white);
-  text-transform: uppercase;
   width: 25%;
-  @media (max-width: $mobile) {
+  font-family: $font-title;
+
+  @media (max-width: $tablet-ver) {
     width: 50%;
     margin: 1rem auto;
   }

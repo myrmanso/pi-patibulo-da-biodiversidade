@@ -6,13 +6,15 @@
     width: 100%;
     z-index: 99;
     font-size: $font-size-text;
+    cursor: pointer;
+
 
 
     .navContainer {
         @include flex(center, space-between, row);
 
         @media (max-width: $mobile){
-            @include flex(center, space-between, colum);
+            @include flex(center, space-between, column);
         }
 
         .navLogo {
@@ -21,10 +23,11 @@
         }
         
         .navLogo.ativo {
+            
             display: block;
         }
         
-       .logo {
+        img {
             width: 11.25rem;
             @media (max-width: $mobile) {
                 width: 7.5rem;
@@ -34,6 +37,7 @@
         .navMenu {
             margin-top: 1.375rem;
             padding: 0;
+
             @media (max-width: $mobile){   
                 display: none;
             }
@@ -68,5 +72,5 @@
 
 
 .navSombra {
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 }

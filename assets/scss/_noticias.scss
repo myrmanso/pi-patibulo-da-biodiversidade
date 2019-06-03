@@ -1,16 +1,33 @@
 .noticias{
-    background-color: $color-primary-lighter;
+    background-image: url("./img/bg-noticias.jpg");
+    background-position:center;
+    background-size: cover;
+    position: relative;
     padding: 2rem 0  7rem 0;
     margin: 0;
-    .noticiasImg{
-        width: 25%;
-        img{
-            object-fit: cover;
+    z-index: -2;
+
+    
+
+    .noticiasCards{
+        background-color: $color-neutral;
+        padding: 2.8rem 1.8rem;
+        border-radius: 4px;
+        box-shadow: 2px 4px 6px 1px rgba( 0, 0, 0, 0.5);
+        margin-bottom: 2rem;
+        .noticiasImg{
+            width: 25%;
+            img{
+                object-fit: cover;
+            } 
         }
-        
     }
+    
     .noticiasTexto{
         width: 70%;
+        @media(max-width: $tablet-ver){
+            width: 100%;
+        }
         @media(max-width: $mobile){
             width: 90%;
         }

@@ -1,9 +1,13 @@
 .projetos{
     .projetosCards{
         width: 30%;
-        @media(max-width: $mobile){
+        @media(max-width: $tablet-ver){
+            width: 100%;
+        }
+        @media (max-width: $mobile){
             width: 90%;
         }
+        
     }
     .imgCards{
         border-radius: 100%;
