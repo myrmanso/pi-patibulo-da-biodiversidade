@@ -1,2 +1,9 @@
 // @extend %nome-do-elemento;
 
+%cards{
+    background-color: $color-neutral;
+    padding: 2.8rem 1.8rem;
+    border-radius: 4px;
+    box-shadow: 2px 4px 6px 1px rgba(0, 0, 0, 0.16);
+}
+

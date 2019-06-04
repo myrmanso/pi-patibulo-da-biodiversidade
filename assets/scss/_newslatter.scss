@@ -12,7 +12,9 @@
   background-color: $color-primary-light;
   width: 70%;
   padding: 0.5rem;
-  border-radius: 4px;
+  border-radius: 3rem;
+  border: none;
+  text-align: center; 
   @media (max-width: $tablet-ver){
       width: 100%;
   }  
@@ -29,7 +31,6 @@
 .newsletterBtn {
   @include button($font-size-text, 0.5rem, 0.5rem, $color-primary-dark, $white);
   width: 25%;
-  font-family: $font-title;
 
   @media (max-width: $tablet-ver) {
     width: 50%;

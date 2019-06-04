@@ -10,11 +10,15 @@
         
     }
     .imgCards{
+        width: 100%;
         border-radius: 100%;
-        border: 0.1rem solid $color-black;
+        // border: 0.1rem solid $color-black;
+        object-fit: cover;
     }
     .containerImg{
         text-align: center;
+        width:40%;
+        margin: 0 auto;
     }
 }   
 

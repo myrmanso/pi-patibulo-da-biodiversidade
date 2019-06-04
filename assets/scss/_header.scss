@@ -34,7 +34,6 @@
 .btn{
     @include button($font-size-title-cards, 1rem, 2.5rem, $color-primary, $white);
     text-transform: uppercase;
-    border-radius: 0.5rem;
     margin: 2rem 0;
     font-family: $font-title;
     

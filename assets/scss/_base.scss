@@ -6,6 +6,7 @@ body{
     font-family: $font-default;
     font-size: $default-font-size;
     margin: 0;
+    color: $color-default-darker;
 }
 
 li{
@@ -25,7 +26,7 @@ p{
 }
 
 section{
-    margin: 2rem 0  7rem 0;;
+    margin: 7rem 0;
 }
 
 label{   
@@ -81,7 +82,7 @@ input{
         background-color: rgba(255, 255, 255, 0.7);
         height: 1rem;
         position: absolute;
-        z-index: -1;
+        z-index: 1;
         bottom: 0.75rem;
     }
 }

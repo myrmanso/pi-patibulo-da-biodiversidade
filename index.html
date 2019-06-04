@@ -17,16 +17,13 @@
 
                 <ul class="navMenu">
                     <li>
-                        <a href="home">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="Notícias">Notícias</a>
+                        <a href="#noticias" target="blank">Notícias</a>
                     </li>
                     <li>
-                        <a href="Projetos">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="Pesquisa">Pesquisa</a>
+                        <a href="#projetos">Projetos</a>
                     </li>
                 </ul>
             </div><!--/navContainer-->
@@ -42,7 +39,7 @@
 
     <main>
             <!--Projetos-->
-            <section class="projetos">
+            <section class="projetos" id="projetos">
                 <div class="container">
                     <h2 class="titulo"><span class="spanMarcaTexto">
                         <span class="marcaTexto"></span>
@@ -52,13 +49,13 @@
                         <div class="container--flex">
                             <div class="projetosCards">
                                 <div class="containerImg">
-                                    <img class="imgCards" src="img1" alt="imagem">
+                                    <img class="imgCards" src="./assets/img/ProjetoTamarINICIO.jpg" alt="imagem">
                                 </div>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
                             </div>
                             <div class="projetosCards">
                                 <div class="containerImg">
-                                    <img class="imgCards" src="img1" alt="imagem">
+                                    <img class="imgCards" src="./assets/img/ProjetoGolfinhoRotator.png" alt="imagem">
                                 </div>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
                             </div>
@@ -72,32 +69,56 @@
                 </div><!--/container--->
             </section>
             <!--Noticias-->
-            <section class="noticias">
-                    <h2 class="titulo noticiasTitulo"><span class="spanMarcaTexto">
-                        <span class="marcaTexto--white"></span>
-                              Noticias  
-                        </span>
-                    </h2>
-                    <div class="container">
-                        <div class="noticiasCards container--flex">
-                            <div class="noticiasImg" >
-                                <img src="img1" alt="imagem">
-                            </div>
-                            <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
+            <section class="noticias" id="noticias">
+                <h2 class="titulo noticiasTitulo"><span class="spanMarcaTexto">
+                    <span class="marcaTexto--white"></span>
+                            Noticias  
+                    </span>
+                </h2>
+                <div class="container">
+                    <div class="noticiasCards container--flex">
+                        <div class="noticiasImg" >
+                            <a href="">
+                                <img src="./assets/img/Noticia1LOGO.jpg" alt="imagem">
+                            </a>
                         </div>
-                        <div class="noticiasCards container--flex">
-                            <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
-                            <div class="noticiasImg" >
-                                <img src="img1" alt="imagem">
+                        <a href="" class="noticiasTexto">
+                            Mesmo considerado o país mais rico em biodiversidade, o Brasil contém animais presentes nas regiões brasileiras que estão em extinção e podem desaparecer completamente em poucas décadas.
+                        </a>
+                    </div>
+                    <div class="noticiasCards container--flex">
+                            <div class="noticiasImg block" >
+                                <img src="./assets/img/Noticia2LOGO.jpg" alt="imagem">
                             </div>
+                        <a href="" class="noticiasTexto">
+                                Crescimento econômico e mudança climática ameaçam 1 milhão de espécies, alertam cientistas
+                        </a>
+                        <div class="noticiasImg ative" >
+                            <a href="">
+                                <img src="./assets/img/Noticia2LOGO.jpg" alt="imagem">
+                            </a>
                         </div>
-                        <div class="noticiasCards container--flex">
+                    </div>
+                    <div class="noticiasCards container--flex">
                             <div class="noticiasImg" >
-                                <img src="img1" alt="imagem">
+                                <a href="noticias.html">
+                                    <img src="./assets/img/noticia3LOGO.jpg" alt="imagem">
+                                </a>
                             </div>
-                            <p class="noticiasTexto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro expedita illo mollitia iusto numquam, vitae a sed et neque placeat nisi reprehenderit sunt unde debitis, enim maxime impedit, sapiente eligendi?</p>
-                        </div><!--/container--flex---->
-                    </div><!--/container--->
+                            
+                            <a href="./noticias.html" class="noticiasTexto">
+                                Em dois dias, 134 tartarugas de espécie ameaçada de extinção nascem na Praia do Futuro
+                            </a>  
+
+                            
+                    </div><!--/container--flex---->
+                    
+                </div><!--/container--->
+                <button class="noticiasBtn">
+                    <a href="noticias.html">
+                    Ver mais
+                    </a>
+                </button>
             </section>
     </main>
     <!--Newsletter-->

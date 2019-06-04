@@ -1,0 +1,70 @@
+.noticias{
+    background-image: url("./img/bg-noticias1.jpg");
+    background-position:center;
+    background-size: cover;
+    background: linear-gradient(red 0%, orange 0%, yellow 0%, green 75%, blue 100%, 50%);
+    opacity: 0.9;
+    position: relative;
+    padding: 2rem 0  7rem 0;
+    margin: 0;
+    text-align: center;
+    
+    .noticiasCards{
+        background-color: $color-neutral;
+        padding: 2.8rem 1.8rem;
+        border-radius: 4px;
+        box-shadow: 2px 4px 6px 1px rgba( 0, 0, 0, 0.5);
+        margin-bottom: 2rem;
+        position: relative;
+        .noticiasImg{
+            width: 27%;
+            @media(max-width: $tablet-ver){
+                width: 50%;
+            }
+            @media(max-width: $mobile){
+                width: 100%;
+            }
+            img{
+                object-fit: cover;
+                width: 100%;
+            } 
+        }
+    
+        .noticiasTexto{
+            width: 70%;
+            font-size: $font-size-title-cards;
+            font-family: $font-title;
+            color: $color-primary-dark;
+            text-align: left;
+
+            @media(max-width: $tablet-ver){
+                width: 100%;
+            }
+            @media(max-width: $mobile){
+                width: 90%;
+            }
+        }
+    }
+}
+.noticiasTitulo{
+    color: $color-primary-light;
+}
+
+.noticiasBtn{
+    margin: 0 auto;
+    width: 25%;
+    @include button($font-size-text, 0.5rem, 0.5rem, $color-primary-dark, $white);    
+}
+
+.block{
+    display: none;
+    @media(max-width: $tablet-ver){
+        display: block;
+    }
+}
+
+.ative{
+    @media(max-width: $tablet-ver){
+        display: none;
+    }
+}
