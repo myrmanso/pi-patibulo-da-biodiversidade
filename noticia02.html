@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <title>Patíbulo da diversidade</title>
+</head>
+<body>
+    <!--cabeçalho-->
+    <nav class="nav navSombra">
+        <div class="container">
+            <div class="navContainer">
+                <img calss="navLogo logo" src="./assets/img/logo.png" alt="">
+
+                <ul class="navMenu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="noticias.html">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <div class="navContainer--menuHamburguer">
+                    <i class="fas fa-bars menuHamburguer"></i>
+                </div>
+            </div><!--/navContainer-->
+
+        </div><!--/container-->
+        <ul class="menuDropdown">
+            <li><a class="menuDropdown--link" href="index.html">Home</a></li>
+            <li><a class="menuDropdown--link" href="noticias.html">Notícias</a></li>
+            <li><a class="menuDropdown--link" href="#footer">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <main class="materia">
+        <div class="container">
+            <h1 class="titulo materiaTitulo">Crescimento econômico e mudança climática ameaçam 1 milhão de espécies</h1>
+            <figure class="matetria__img">
+                <img class="materia__img--bg" src="./assets/img/Noticia2.jpg" alt="">
+                <figcaption>Por Reuters/ https://exame.abril.com.br/ciencia/crescimento-economico-e-mudanca-climatica-ameacam-1-milhao-de-especies/</figcaption>
+            </figure>
+            <p>Cientistas defendem mudanças abrangentes no sistema econômico e financeiro global para a manutenção de ecossistemas vitais para o futuro da humanidade.</p>
+            <p>Paris — A busca incansável pelo crescimento econômico, somada ao impacto da mudança climática, colocou o número recorde de 1 milhão de espécies em risco de extinção, disseram cientistas nesta segunda-feira em um relatório histórico sobre o dano causado pela civilização moderna no mundo natural.</p>
+            <p>Só uma transformação abrangente do sistema econômico e financeiro global poderia tirar ecossistemas que são vitais para o futuro das comunidades humanas de todo o mundo da beira do colapso, concluiu o relatório, que foi endossado por 130 países, incluindo Estados Unidos, Rússia e China.</p>
+            <p>“A teia da vida na Terra, essencial e interconectada, está se tornando menor e cada vez mais esgarçada”, disse o professor Josef Settele, coautor do estudo publicado em Paris nesta segunda-feira pela Plataforma Intergovernamental de Política Científica para os Serviços de Biodiversidade e Ecossistemas (Ipbes).</p>
+            <p>“Esta perda é um resultado direto da atividade humana, e constitui uma ameaça direta ao bem-estar humano em todas as regiões do mundo”.</p>
+            <P>Organizado por 145 autores especializados de 50 países, o estudo é o fundamento de uma compilação de pesquisas emergente que indica que o mundo pode ter que adotar um novo modelo econômico “pós-crescimento” se quiser evitar os riscos existenciais resultantes das consequências mutuamente influenciadoras da poluição, da destruição de habitats e das emissões de carbono.</P>
+            <p>Conhecido como Levantamento Global, o relatório revelou que até 1 milhão das estimadas 8 milhões de espécies de plantas, insetos e animais da Terra correm risco de extinção, muitas em questão de décadas.</p>
+            <p>Os autores identificaram a agricultura e a pesca industriais como grandes catalisadoras — o ritmo atual de extinção de espécies é entre dezenas e centenas de vezes maior do que a média dos últimos 10 milhões de anos.</p>
+            <p>A mudança climática causada pela queima de carvão, petróleo e gás produzidos pela indústria de combustíveis fósseis está exacerbando estas perdas, disse o relatório.</p>
+            <p>Robert Watson, cientistas ambientalista britânico que preside a IPBES, disse que seria possível começar a conservar, restaurar e usar a sustentabilidade da natureza se as sociedades estivessem preparadas para confrontar “interesses escusos” comprometidos com a preservação do status quo.</p>
+            <p>“O relatório também nos diz que não é tarde demais para fazer a diferença, mas só se começarmos agora em todos os níveis, do local ao global”, explicou Watson em um comunicado.</p>
+        </div>
+    </main>
+    <div class="container">
+        <hr class="line">
+    </div>
+    <!--Newsletter-->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="titulo">
+                <span class="spanMarcaTexto">
+                    <span class="marcaTexto"></span>
+                    Newsletter
+                </span>
+            </h2>
+            <form class="newsletterForm">
+                <div class="newsletterLabel">
+                    <label  for="email-usuario">Para receber mais notícias se inscreva na nossa Newsletter!</label>
+                </div>
+                <div class="container--flex">
+                    <input class="newsletterInput" type="email" name="email-usuario" id="" placeholder="nome@email.com">
+                    <input class="newsletterBtn"type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--footer-->
+    <section class="footerBg" id="contato">
+        <div class="container container--flex">
+            <div class="footerBox--conteudo">
+            
+                <ul class="footerRedes">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="./assets/img/icones/fb-icon.png" alt="icone do facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img class="iconInsta" src="./assets/img/icones/instagram-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="./assets/img/icones/yt-icon.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img class="iconInsta" src="./assets/img/icones/email-icon.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+                        
+            </div>
+            <div class="footerBox">
+                <h3 class="footerBoxTitle">Sobre nós</h3>
+                <p>
+                    Patíbulo da biodiversidade e tem como objetivo maior a divulgação de notícias, fatos, curiosidades sobre o tema ‘Declínio contemporâneo da biodiversidade mundial’, que é um fenômeno que envolve a extinção ou significativa redução populacional de inúmeras espécies selvagens, algo que pode impactar diretamente na biodiversidade animal do mundo. 
+                </p>
+            </div>
+        </div><!--/container-->
+    </section>
+    <footer class="footerCopyright">
+        <p>Patibulo de diversidade © 2019. Desenvolvido por <a href="https://github.com/myrmanso">Mayara Cristina Manso</a> e Matheus Oliveira</p>
+    </footer>  
+
+</body>
+</html>

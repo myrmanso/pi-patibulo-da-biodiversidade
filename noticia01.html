@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
     <title>Patíbulo da diversidade</title>
 </head>
 <body>
@@ -20,28 +23,56 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="noticias.html" target="blank">Notícias</a>
+                        <a href="noticias.html">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
+                <div class="navContainer--menuHamburguer">
+                    <i class="fas fa-bars menuHamburguer"></i>
+                </div>
             </div><!--/navContainer-->
+
         </div><!--/container-->
+        <ul class="menuDropdown">
+            <li><a class="menuDropdown--link" href="index.html">Home</a></li>
+            <li><a class="menuDropdown--link" href="noticias.html">Notícias</a></li>
+            <li><a class="menuDropdown--link" href="#footer">Contato</a></li>
+        </ul>
     </nav>
     
     <main class="materia">
         <div class="container">
-            <h1 class="titulo">Titulo da materia</h1>
+            <h1 class="titulo">Animais em extinção no Brasil</h1>
             <figure class="matetria__img">
-                <img class="materia__img--bg" src="./assets/img/noticia1.jpg" alt="">
-                <figcaption>Aqui vai a fonte da noticia</figcaption>
+                <img class="materia__img--bg"  src="./assets/img/noticia1.jpg" alt="">
+                <figcaption>Por Redação Pensamento Verde  /https://www.pensamentoverde.com.br/meio-ambiente/animais-em-extincao-no-brasil/ </figcaption>
             </figure>
-            <p>1 paragrafo</p>
-            <p>2 paragrafo</p>
-            <p>3 paragrafo</p>
-            <p>4 paragrafo</p>
+            <p>Existem mais de mil espécies em risco de extinção, segundo o Ministério do Meio Ambiente (MMA) e o Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio).</p>
+            <p>As causas para os desaparecimentos das espécies são por tráfico de animais, queimadas, desmatamento, construção de hidrelétricas, poluição e caça predatória, que afetam diretamente seu habitat, reduzindo suas chances de sobrevivência.</p>
+            <p>Segundo estudos, o Brasil lidera o ranking com maior número de espécies de aves em extinção, com a Indonésia em segundo lugar.</p>
+            <p>Confira uma lista de espécies com possíveis extinções.</p>
+            <img class="materia__img--bg" src="./assets/img/Animais_extincao_Ararajuba.jpg" alt="">
+            <p><b>Araraju</b></p>
+            <p>Também conhecida como Guaruba, a ararajuba é uma ave verde e amarela, que vem sofrendo com o tráfico e o desmatamento. Sua espécie vive na Amazônia, mas pouco se sabe sobre seus hábitos, o que torna ainda mais difícil sua conservação.</p>
+            
+            <img class="materia__img--bg" src="./assets/img/Animais_extincao_arara_azul.jpg" alt="">
+            <p><b>Arara Azul</b></p>
+            <p>Espécie encontrada na Amazônia e Pantanal, dona de um azul sem igual. Ave cobiçada por caçadores, já que suas asas possuem grande valor no mercado internacional.</p>
+            <p>Atualmente, sofre com o tráfico de animais, caça ilegal e o desmatamento de seu habitat.</p>
+
+            <img class="materia__img--bg" src="./assets/img/Animais_extincao_ariranha.jpg" alt="">
+            <p><b>Ariranha</b></p>
+            <p>Conhecida como lobo do rio ou lontra gigante, a ariranha está sendo ameaçada de extinção devido a caça ilegal, poluição dos rios e pesca predatória, mas, principalmente, a contaminação por mercúrio, que são as maiores ameaças para a conservação da espécie. É encontrada no Pantanal e Amazônia. </p>
+            
+            <img class="materia__img--bg" src="./assets/img/noticia1.jpg" alt="">
+            <p><b>Cervo-do-pantanal</b></p>
+            <p>É o maior cervídeo da América do Sul e é encontrado no Pantanal, mas também vive nos biomas da Amazônia e Cerrado. A construção das hidrelétricas, o desmatamento e a caça ilegal tem sido uma grande ameaça para essa espécie.</p>
         </div>
     </main>
     <div class="container">
-        <hr class="line">
+        <hr>
     </div>
     <!--Newsletter-->
     <section class="newsletter">
@@ -64,7 +95,7 @@
         </div>
     </section>
     <!--footer-->
-    <section class="footerBg">
+    <section class="footerBg" id="contato">
         <div class="container container--flex">
             <div class="footerBox--conteudo">
             
@@ -95,7 +126,7 @@
             <div class="footerBox">
                 <h3 class="footerBoxTitle">Sobre nós</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate porro dicta asperiores totam! Quidem fugiat dolorem aperiam, minus excepturi, nisi nemo vero consequuntur ducimus eaque repudiandae debitis? Quidem, dolor maxime.
+                    Patíbulo da biodiversidade e tem como objetivo maior a divulgação de notícias, fatos, curiosidades sobre o tema ‘Declínio contemporâneo da biodiversidade mundial’, que é um fenômeno que envolve a extinção ou significativa redução populacional de inúmeras espécies selvagens, algo que pode impactar diretamente na biodiversidade animal do mundo. 
                 </p>
             </div>
         </div><!--/container-->
@@ -103,6 +134,6 @@
     <footer class="footerCopyright">
         <p>Patibulo de diversidade © 2019. Desenvolvido por <a href="https://github.com/myrmanso">Mayara Cristina Manso</a> e Matheus Oliveira</p>
     </footer>  
-    
-    </body>
-    </html>
+
+</body>
+</html>

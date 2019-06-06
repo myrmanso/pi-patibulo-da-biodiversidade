@@ -1,6 +1,10 @@
 .projetos{
+    text-align: center;
     .projetosCards{
         width: 30%;
+        height: 50rem;
+        text-align: left;
+        margin-top: 2rem;
         @media(max-width: $tablet-ver){
             width: 100%;
         }
@@ -11,14 +15,32 @@
     }
     .imgCards{
         width: 100%;
-        border-radius: 100%;
-        // border: 0.1rem solid $color-black;
+        height: 40%;
+        margin-bottom: 3rem;
         object-fit: cover;
     }
     .containerImg{
         text-align: center;
         width:40%;
         margin: 0 auto;
+    }
+
+    .imgCards--mico{
+        height: 150px;
+        margin-bottom: 1rem;
+    }
+
+    .projetosCardsTitulo{
+        color:  $color-primary-dark;
+        font-size: $font-size-text;
+        font-family: $font-title;
+        font-weight: bold;
+        text-align: left;
+    }
+    .projetosBtn{
+        margin: 0 auto;
+        width: 25%;
+        @include button($font-size-text, 0.5rem, 0.5rem, $color-primary-dark, $white);    
     }
 }   
 
