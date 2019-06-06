@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
     <title>Patíbulo da diversidade</title>
 </head>
+
 <body>
-    <!--inicio nav-->
+    <!--cabeçalho-->
     <nav class="nav navSombra">
         <div class="container">
             <div class="navContainer">
@@ -23,11 +27,20 @@
                         <a href="noticias.html">Notícias</a>
                     </li>
                     <li>
-                        <a href="#projeos">Projetos</a>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
+                <div class="navContainer--menuHamburguer">
+                    <i class="fas fa-bars menuHamburguer"></i>
+                </div>
             </div><!--/navContainer-->
+
         </div><!--/container-->
+        <ul class="menuDropdown">
+            <li><a class="menuDropdown--link" href="index.html">Home</a></li>
+            <li><a class="menuDropdown--link" href="noticias.html">Notícias</a></li>
+            <li><a class="menuDropdown--link" href="#footer">Contato</a></li>
+        </ul>
     </nav>
     <!--/nav-->
     <!--inicio main-->
@@ -103,7 +116,7 @@
         </section>
     <!--/newsletter-->
     <!--footer-->
-    <section class="footerBg">
+    <section class="footerBg" id="contato">
             <div class="container container--flex">
                 <div class="footerBox--conteudo">
                 

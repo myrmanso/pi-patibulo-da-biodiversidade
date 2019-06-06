@@ -39,6 +39,8 @@
 
             @media(max-width: $tablet-ver){
                 width: 100%;
+                font-size: $font-size-text;
+
             }
             @media(max-width: $mobile){
                 width: 90%;

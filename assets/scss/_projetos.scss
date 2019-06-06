@@ -7,12 +7,22 @@
         margin-top: 2rem;
         @media(max-width: $tablet-ver){
             width: 100%;
+            height: 40rem;
         }
         @media (max-width: $mobile){
             width: 90%;
+            height: 50rem;
         }
         
     }
+
+    .projetosCards--margin{
+
+        @media(max-width: $mobile){
+            margin-top: -6rem;
+        }
+    }
+}
     .imgCards{
         width: 100%;
         height: 40%;
@@ -42,5 +52,5 @@
         width: 25%;
         @include button($font-size-text, 0.5rem, 0.5rem, $color-primary-dark, $white);    
     }
-}   
+
 
